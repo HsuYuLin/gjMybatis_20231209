@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"> <!--導入thymeleaf-->
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css/st1.css">
+</head>
+<body>
+	<div id="header"></div>
+	<div id="navigater"></div>
+	<div id="content">
+		<div>
+			<table width="50%" id="contentArea">
+				<tr>
+					<td>登入成功</td>
+				</tr>
+				<tr>
+					<!--格式為${session.[session Attribute名稱].[屬性名稱]}-->
+					<td th:text="${session.M.name}"></td>
+				</tr>
+				<tr>
+					<td><a href="/porder/porder">進入購物</a></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div id="footer"></div>
+</body>
+</html>

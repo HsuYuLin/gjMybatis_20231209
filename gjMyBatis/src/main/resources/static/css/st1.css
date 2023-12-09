@@ -1,0 +1,58 @@
+@charset "UTF-8";
+#header
+{
+	background-color: #4A99E8;
+	width:50%;
+	height:100px;
+	margin-left:25%;
+}
+#navigater
+{
+	background-color: #A5CCF3;
+	width:50%;
+	height:50px;
+	margin-left:25%;	
+}
+#nav
+{
+	padding-left: 20%;
+	padding-top:10px;
+	color:#3B4E54;	
+}
+#content
+{
+	background-color: #DBEBFA;
+	width:50%;
+	height:400px;
+	margin-left:25%;	
+}
+#pic 
+{
+	padding-top:30px;
+	padding-left:13%;
+	
+}
+#contentArea
+{
+	border-radius:25px;
+	padding-top:60px;
+	padding-left:25%;
+}
+#loginForm
+{
+	padding-left:30%;
+	padding-top:100px;	
+}
+#alignForm
+{
+	padding-left:30%;
+	padding-top:60px;	
+}
+#footer
+{
+	background-color: #4A99E8;
+	width:50%;
+	height:100px;
+	margin-left:25%;
+	
+}
